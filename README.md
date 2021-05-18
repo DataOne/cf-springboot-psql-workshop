@@ -76,7 +76,3 @@ Hint:
 
 ## step 8 - bonus
 Try to change the application so that you don't need the explicit configuration via properties file(s).
-
-## Todo
-* Configuration in PPT
-* Maven basics in PPT
