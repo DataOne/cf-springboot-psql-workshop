@@ -51,6 +51,7 @@ Requirement: App should run locally and in the cloud
 
 Hint: 
 * https://spring.io/blog/2015/04/27/binding-to-data-services-with-spring-boot-in-cloud-foundry
+* https://reflectoring.io/spring-boot-profiles/ 
 
 ## step 8 - bonus
 Try to change the application so that you don't need the explicit configuration via application.properties.
