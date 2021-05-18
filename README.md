@@ -17,6 +17,7 @@ On the main branch, the project is completely empty. Go through the steps mentio
 Hints: 
 * Don't use Cloud Connector 
 * Use Maven as package manager
+* If you add the persistence dependencies now already, spring will assume that there is a db to that the app can create a connection to. Maybe it is clever to keep the dependencies in mind but not add them from the beginning. 
 
 ## step 2
 * Import project into your IDE
@@ -37,6 +38,9 @@ Hints:
 ## step 4 
 * Create an entity that holds a todo entry 
 * What do you need additionally for the persistence layer? Create that component
+
+Hint:
+* Now it is time to add the persistence dependencies
 
 ## step 5 
 * Run a postgresql server locally. (`docker run -p5432:5432 --name postgres -e POSTGRES_PASSWORD=mysecretpassword -d postgres`)
