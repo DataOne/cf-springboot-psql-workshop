@@ -23,11 +23,6 @@ Hints:
 * Import project into your IDE
 * Run the application 
 
-Solution:
-* With IntelliJ, File -> Open and then open the folder that you downloaded from spring initializr. 
-* For running through IntelliJ, create a new run configuration, choose maven and insert `spring-boot:run` as command line parameter  
-* On the CLI simply run `./mwnw spring-boot:run`
-
 ## step 3
 * Create a REST Endpoint (hello world)
 * Run the app and test the endpoint
